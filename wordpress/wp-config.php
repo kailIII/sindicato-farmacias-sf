@@ -28,7 +28,7 @@ define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 
 /** Codificación de caracteres para la base de datos. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. */
 define('DB_COLLATE', '');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
+define('AUTH_KEY', 'OQQSsar!&kwG<Ny5>U3BT4X&$cqSX&K|kG8uO[-g#+3o)O#Rp#w .l2sByB1[&L%');
+define('SECURE_AUTH_KEY', '(]b%X5eym>kh_/2N|J2N]0V8tf9-1KpPcA):Snv+cs#3P-Y<sr:M8doP@OdeK6C2');
+define('LOGGED_IN_KEY', 'nZg=~W[-`nI@c3_e^=QE/ne~WV? VZd2;|%| |.P+`$-Dh|+H($[8U,zgZZ,-CE0');
+define('NONCE_KEY', 'K39>uUySe_`am_-7|[;Sz<ykz,| .e+mj=#R8tHj<N<W&k8phl|yF-=7NTC4!tMt');
+define('AUTH_SALT', 'd-d1-b[aBS=<cV.(,fRV,m>^~BA;/CJ~r6)(QX)RCbF_u4Ps9]`hcXUKMdz7luxc');
+define('SECURE_AUTH_SALT', '8u:rfpudU fs`KXVG6F`CPt*G(0gk|-Wcw%7Qy7LF2XzO,oYkm.8tIXsDZ*D#H3 ');
+define('LOGGED_IN_SALT', 'ye{qh}k>.}Am>#-d[Sg>APshAx I_0t}Yql7hHwT*(TFs83E/hZQ$UeG8O2~%0no');
+define('NONCE_SALT', '}ij>E>ZSOG7G]I=YZ5T=kmD4q|D6u?iN22|Cs7qO1r}86ZY@`OZ@uNQv(vV*Vih8');
 
 /**#@-*/
 
