@@ -1,0 +1,30 @@
+{
+  "name": "sindicato",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lrabuffetti/sindicato-farmacias-sf",
+  "authors": [
+    "lrabuffetti <lucas.rabuffetti@gmail.com>"
+  ],
+  "description": "package application for sindicato project",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "angular-bootstrap": "~0.13.4",
+    "bootstrap": "~3.3.5"
+  }
+}

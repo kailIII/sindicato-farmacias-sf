@@ -1,4 +1,4 @@
 (function() {
     'use strict';
-    angular.module('sindicato', ['ngRoute']);
+    angular.module('sindicato', ['ngRoute', 'ui.bootstrap']);
 })();
