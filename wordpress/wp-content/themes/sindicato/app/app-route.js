@@ -18,6 +18,10 @@
         .when('/demo', {
           templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/demo.html',
           controller: 'sindicatoController'
+        })        
+        .when('/simulador', {
+          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/simulador.html',
+          controller: 'sindicatoController'
         })
         .when('/:slug', {
           templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/posts.html',
