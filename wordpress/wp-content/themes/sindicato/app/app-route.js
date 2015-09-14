@@ -12,15 +12,15 @@
 
       $routeProvider
         .when('/', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/main.php',
+          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/main.html',
           controller: 'sindicatoController'
         })
         .when('/demo', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/demo.php',
+          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/demo.html',
           controller: 'sindicatoController'
         })
         .when('/:slug', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/posts.php',
+          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/posts.html',
           controller: 'Slug'
         });
     }
