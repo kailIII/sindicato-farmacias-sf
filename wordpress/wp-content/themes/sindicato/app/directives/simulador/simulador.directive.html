@@ -1,0 +1,76 @@
+<form name="simuladorForm" novalidate class="col-xs-12 col-md-8">
+  <h1>Simulación de Liquidación de Haberes</h1>
+  <p>Controle su recibo de sueldo</p>
+  <hr class="col-xs-12 col-md-12">
+  <div class="form-group clearfix">
+    <div class="col-xs-6 col-md-2">
+      <label for="antiguedad">antiguedad</label>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <select class="form-control"
+          ng-model="formData.antiguedad"
+          ng-options="option.value as option.year for option in ciVm.antiguedadOpt.meses"
+          >
+      </select>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <label for="periodo">Periodo</label>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <select class="form-control"
+          ng-model="formData.periodo"
+          ng-options="option.value as option.year for option in ciVm.periodosOpt.meses"
+          >
+      </select>
+    </div>
+  </div>
+  <div class="form-group clearfix">
+    <div class="col-xs-6 col-md-2">
+      <label for="horas">Horas semanales</label>
+    </div>
+    <div class="col-xs-6 col-md-6">
+      <input ng-model="horas" type="number" name="horas" value="">
+    </div>
+  </div>
+  <div class="form-group clearfix">
+    <div class="col-xs-6 col-md-2">
+      <label for="categoria">Categoria</label>
+    </div>
+    <div class="col-xs-6 col-md-6">
+      <select class="form-control"
+          ng-model="formData.categoria"
+          ng-options="option.value as option.categoria for option in ciVm.categoria.tipo"
+          >
+      </select>
+    </div>
+  </div>
+  <hr>
+  <h3>Adicionales</h3>
+  <hr>
+  <div class="form-group clearfix">
+    <div class="col-xs-6 col-md-4">
+      <label for="extras-50">Extras 50%</label>
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <input ng-model="extras50" type="number" name="extras-50" value="">
+    </div>
+  </div>
+  <div class="form-group clearfix">
+    <div class="col-xs-6 col-md-4">
+      <label for="extras-100">Extras 100%</label>
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <input ng-model="extras100" type="number" name="extras-100" value="">
+    </div>
+  </div>
+  <div class="form-group clearfix">
+    <div class="col-xs-6 col-md-4">
+      <label for="nocturnas">Nocturnas</label>
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <input ng-model="nocturnas" type="number" name="nocturnas" value="">
+    </div>
+  </div>
+  <hr>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>

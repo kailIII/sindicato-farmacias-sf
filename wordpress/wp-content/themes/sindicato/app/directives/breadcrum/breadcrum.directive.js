@@ -20,5 +20,6 @@
     // @ngInject
     function BreadCrumCtrl($scope) {
       //logic for the simulador will be placed here
+      console.log('breadcrum');
     }
 })();
