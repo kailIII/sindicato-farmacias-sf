@@ -19,6 +19,6 @@
     NavBarCtrl.$inject = ['$scope'];
     // @ngInject
     function NavBarCtrl($scope) {
-      
+
     }
 })();

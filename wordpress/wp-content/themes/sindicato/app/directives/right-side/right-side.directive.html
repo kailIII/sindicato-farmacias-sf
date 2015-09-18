@@ -1,0 +1,18 @@
+<aside>
+  <form action="/sindicato-farmacias-sf/wordpress/bonos/" id="form-bonos" method="get">
+  	<fieldset>
+  		<p>Ingrese su número de CUIL</p>
+  		<label class="hide" for="cuil">CUIL</label>
+  		<p>
+  			<input id="c1" maxlength="2" name="c1" rel="onlynumber" type="text">
+          <input id="c2" maxlength="8" name="c2" rel="onlynumber" type="text">
+          <input id="c3" maxlength="1" name="c3" rel="onlynumber" type="text">
+      </p>
+  		<p>
+  			<input name="token" type="hidden" value="">
+        <button class="btn btn-sm" id="button" type="submit">Solicitar</button>
+      </p>
+  		<p class="error"></p>
+  	</fieldset>
+  </form>
+</aside>
