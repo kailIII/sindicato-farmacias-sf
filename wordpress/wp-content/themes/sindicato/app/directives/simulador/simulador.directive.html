@@ -46,6 +46,135 @@
   </div>
   <hr>
   <h3>Adicionales</h3>
+  <div ng-switch="formData.categoria" class="clearfix">
+    <div ng-switch-when="1" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.adicionalTituloSecundario" name="titulo-secundario" value="">
+          <label for="titulo-secundario">Adicional Título secundario</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+      </ul>
+    </div>
+    <div ng-switch-when="2" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.adicionalTituloSecundario" name="titulo-secundario" value="">
+          <label for="titulo-secundario">Adicional Título secundario</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.vehiculo" name="vehiculo" value="">
+          <label for="vehiculo">Adicional Bicicleta o ciclomotor</label>
+        </li>
+      </ul>
+    </div>
+    <div ng-switch-when="3" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.adicionalTituloSecundario" name="titulo-secundario" value="">
+          <label for="titulo-secundario">Adicional Título secundario</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.cajero" name="cajero" value="">
+          <label for="cajero">Adicional Cajero</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.faltante" name="faltante" value="">
+          <label for="faltante">Adicional Faltante de Caja</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.adminTareas" name="tareas-administrativas" value="">
+          <label for="tareas-administrativas">Adicional Tareas Administrativas y de Pefumería</label>
+        </li>
+      </ul>
+    </div>
+    <div ng-switch-when="4" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.adicionalTituloSecundario" name="titulo-secundario" value="">
+          <label for="titulo-secundario">Adicional Título secundario</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+      </ul>
+    </div>
+    <div ng-switch-when="5" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.adicionalTituloSecundario" name="titulo-secundario" value="">
+          <label for="titulo-secundario">Adicional Título secundario</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.tituloAuxFarm" name="auxiliar-farmacia" value="">
+          <label for="auxiliar-farmacia">Adicional Título Auxiliar de Farmacia</label>
+        </li>
+      </ul>
+    </div>
+    <div ng-switch-when="6" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li><strong>Art 18 Inciso B Bloqueo de Titulo</strong> - no lleva antiguedad</li>
+      </ul>
+    </div>
+    <div ng-switch-when="7" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.tituloFarmaceutico" name="titulo-farmaceutico" value="">
+          <label for="titulo-farmaceutico">Titulo Farmacéutico</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.tituloFarmaceuticoCB" name="titulo-farmaceutico-CB" value="">
+          <label for="titulo-farmaceutico-CB">
+            Título Farmacéutico auxiliar con bloqueo (para Pcia. de Buenos Aires) - No lleva antigüedad
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div ng-switch-when="8" class="clearfix">
+      <ul>
+        <li>
+          <input type="checkbox" ng-model="formData.idioma" name="idioma" value="">
+          <label for="idioma">Adicional Idioma</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.tituloFarmaceutico" name="titulo-farmaceutico" value="">
+          <label for="titulo-farmaceutico">Titulo Farmacéutico</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="formData.tituloFarmaceuticoSB" name="titulo-farmaceutico-SB" value="">
+          <label for="titulo-farmaceutico-SB">Título Farmacéutico auxiliar sin bloqueo (para CABA) - No lleva antigüedad</label>
+        </li>
+      </ul>
+    </div>
+  </div>
   <hr>
   <div class="form-group clearfix">
     <div class="col-xs-6 col-md-2">
@@ -73,16 +202,6 @@
   </div>
   <hr>
   <h3>Otros adicionales remunerativos</h3>
-  <div class="">
-    <div class="col-xs-6 col-md-2">
-      <label for="adicionales">Adicionales</label>
-    </div>
-    <div class="col-xs-6 col-md-2">
-      <ul>
-        <li></li>
-      </ul>
-    </div>
-  </div>
   <hr>
   <div class="form-group clearfix">
     <div class="col-xs-6 col-md-3">
