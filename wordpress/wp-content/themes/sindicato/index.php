@@ -6,13 +6,15 @@
 		<base href="<?php echo get_site_url(); ?>/">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app/directives/nav-bar/nav-bar.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/app/directives/simulador/simulador.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 	</head>
-	<body>
+	<body class="content">
 		<header>
 			<h1><a href="<?php echo get_site_url(); ?>">Sindicato</a></h1>
 		</header>
 		<nav-bar></nav-bar>
-		<div class="container" ng-view></div>
+		<div class="container-fluid" ng-view></div>
 		<footer class="footer navbar navbar-default">
 			<div class="container-fluid">
 				<?php echo date("Y"); ?> Sindicato

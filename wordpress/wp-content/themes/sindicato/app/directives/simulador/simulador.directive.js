@@ -26,7 +26,12 @@
         categoria: null,
         extras50: null,
         extras100: null,
-        nocturnas: null
+        nocturnas: null,
+        futurosAumentos: null,
+        presentismo: null,
+        asistencia: null,
+        comisiones: null,
+        otrosRemunerativos: null
       }
 
       var vm = this;
@@ -146,5 +151,9 @@
           }
         ]
       };
+
+      $scope.processForm = function() {
+        console.log($scope.formData);
+      }
     }
 })();
