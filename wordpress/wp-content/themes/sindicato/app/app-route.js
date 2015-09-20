@@ -24,7 +24,7 @@
           controller: 'sindicatoController'
         })
         .when('/bono', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/bono.html',
+          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/bonos.html',
           controller: 'sindicatoController'
         })
         .when('/:slug', {

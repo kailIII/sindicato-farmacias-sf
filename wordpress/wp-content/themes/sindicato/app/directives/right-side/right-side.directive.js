@@ -19,6 +19,8 @@
     RightSideCtrl.$inject = ['$scope'];
     // @ngInject
     function RightSideCtrl($scope) {
-      console.log('right side!')
+      $scope.bonosForm = function() {
+
+      };
     }
 })();

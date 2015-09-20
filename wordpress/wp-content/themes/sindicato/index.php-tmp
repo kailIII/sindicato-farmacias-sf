@@ -22,7 +22,7 @@
 		</div>
 		<footer class="footer navbar navbar-default">
 			<div class="container-fluid">
-				<?php echo date("Y");?> Sindicato
+<?php echo date("Y");?> Sindicato
 			</div>
 		</footer>
 		<!-- angular components added by bower -->
