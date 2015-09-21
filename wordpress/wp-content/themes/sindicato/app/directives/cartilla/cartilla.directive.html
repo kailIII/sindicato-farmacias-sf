@@ -1,0 +1,25 @@
+<form ng-submit="expression">
+	<div class="col-xs-12 col-md-12">
+  <select class="form-control"
+      ng-model="formData.cartilla"
+      ng-options="option.value as option.name for option in ciVm.cartilla.especialidad"
+      >
+  </select>
+</div>
+<div class="col-xs-12 col-md-12">
+  <select class="form-control"
+      ng-model="formData.cartilla"
+      ng-options="option.value as option.name for option in ciVm.cartilla.farmacias"
+      >
+  </select>
+</div>
+</form>
+<ul>
+	<li ng-repeat="(key, value) in ciVm.cartilla.list">
+		<a href="{{value}}">{{key}}</a>
+	</li>
+</ul>
+<span class="pull-right">(*) acceso al sitio web</span>
+<p>
+	Información acerca de consultorios zonales al 4941-1219 de lunes a viernes de 8 a 17 hs. O envía tu consulta a <a href="">turnosmedicos@adef.org.ar</a>
+</p>
