@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /sindicato-farmacias-sf/wordpress/
+RewriteBase /atfsf.org/haberes/wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /sindicato-farmacias-sf/wordpress/index.php [L]
+RewriteRule . /atfsf.org/haberes/wordpress/index.php [L]
 </IfModule>
 
 # END WordPress

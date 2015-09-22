@@ -12,23 +12,23 @@
 
       $routeProvider
         .when('/', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/main.html',
+          templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/main.html',
           controller: 'sindicatoController'
         })
         .when('/demo', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/demo.html',
+          templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/demo.html',
           controller: 'sindicatoController'
         })
         .when('/simulador', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/simulador.html',
+          templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/simulador.html',
           controller: 'sindicatoController'
         })
         .when('/bono', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/bonos.html',
+          templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/bonos.html',
           controller: 'sindicatoController'
         })
         .when('/:slug', {
-          templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/templates/posts.html',
+          templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/posts.html',
           controller: 'Slug'
         });
     }

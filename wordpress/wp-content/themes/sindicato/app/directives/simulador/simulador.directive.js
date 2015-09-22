@@ -6,7 +6,7 @@
     function Simulador() {
       return {
         restrict: 'E',
-        templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/app/directives/simulador/simulador.directive.html',
+        templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/app/directives/simulador/simulador.directive.html',
         controller: SimuladorCtrl,
         controllerAs: 'ciVm',
         scope: {

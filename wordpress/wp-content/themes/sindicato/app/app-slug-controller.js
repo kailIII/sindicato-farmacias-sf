@@ -11,7 +11,7 @@
 
         function slugController($scope, $http, $routeParams) {
           $http.get(
-              '/sindicato-farmacias-sf/wordpress/api/get_post/?slug=' + $routeParams.slug)
+              '/atfsf.org/haberes/wordpress/api/get_post/?slug=' + $routeParams.slug)
               .success(function(res) {
                 $scope.post = res.post;
           });

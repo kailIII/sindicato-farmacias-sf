@@ -6,7 +6,7 @@
     function NavBar() {
       return {
         restrict: 'E',
-        templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/app/directives/nav-bar/nav-bar.directive.html',
+        templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/app/directives/nav-bar/nav-bar.directive.html',
         controller: NavBarCtrl,
         controllerAs: 'ciVm',
         scope: {},

@@ -6,7 +6,7 @@
     function Cartilla() {
       return {
         restrict: 'E',
-        templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/app/directives/cartilla/cartilla.directive.html',
+        templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/app/directives/cartilla/cartilla.directive.html',
         controller: CartillaCtrl,
         controllerAs: 'ciVm',
         scope: {},
@@ -17,6 +17,8 @@
     CartillaCtrl.$inject = ['$scope'];
     // @ngInject
     function CartillaCtrl($scope) {
-        
+        $scope.processForm = function() {
+            console.log($scope.formData);
+      };
     }
 })();

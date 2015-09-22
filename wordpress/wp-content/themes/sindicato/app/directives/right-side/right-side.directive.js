@@ -6,7 +6,7 @@
     function RightSide() {
       return {
         restrict: 'E',
-        templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/app/directives/right-side/right-side.directive.html',
+        templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/app/directives/right-side/right-side.directive.html',
         controller: RightSideCtrl,
         controllerAs: 'ciVm',
         scope: {

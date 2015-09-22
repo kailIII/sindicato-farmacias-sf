@@ -6,7 +6,7 @@
     function BreadCrum() {
       return {
         restrict: 'E',
-        templateUrl: '/sindicato-farmacias-sf/wordpress/wp-content/themes/sindicato/app/directives/breadcrum/breadcrum.directive.html',
+        templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/app/directives/breadcrum/breadcrum.directive.html',
         controller: BreadCrumCtrl,
         controllerAs: 'ciVm',
         scope: {
