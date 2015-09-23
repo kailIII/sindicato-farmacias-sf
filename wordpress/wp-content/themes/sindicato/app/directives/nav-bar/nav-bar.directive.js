@@ -18,27 +18,63 @@
     // @ngInject
     function NavBarCtrl($scope) {
         $scope.navigationLinks = {
-            'institucional': [
+            'home': [
                 {
-                    'link': 'test-url',
-                    'href': '/sindicato-farmacias-sf/wordpress/test-url'
-                },
-                {
-                    'link': 'test-url-2',
-                    'href': '/sindicato-farmacias-sf/wordpress/test-url-2'
+                    'link': 'Home',
+                    'href': '/'
                 }
             ],
-            'simulador': [
+            'institucional': [
                 {
-                    'link': 'simulador',
-                    'href': '/sindicato-farmacias-sf/wordpress/simulador'
+                    'link': 'Simulador',
+                    'href': '/atfsf.org/haberes/wordpress/simulador'
+                },
+                {
+                    'link': 'Personeria Gremial',
+                    'href': '/atfsf.org/haberes/wordpress/personeria-gremial'
+                },
+                {
+                    'link': 'Comision Directiva',
+                    'href': '/atfsf.org/haberes/wordpress/comision-directiva'
+                },
+                {
+                    'link': 'Estatuto',
+                    'href': '/atfsf.org/haberes/wordpress/estatuto'
+                }
+            ],
+            'escala-salarial': [
+                {
+                    'link': 'Escala Salarial',
+                    'href': '/atfsf.org/haberes/wordpress/escala-salarial'
+                },
+                {
+                    'link': 'Enero 2015',
+                    'href': '/atfsf.org/haberes/wordpress/enero-2015'
                 },
             ],
-            'demo': [
+            'noticias': [
                 {
-                    'link': 'demo',
-                    'href': '/sindicato-farmacias-sf/wordpress/demo'
-                },
+                    'link': 'Noticias',
+                    'href': '/atfsf.org/haberes/wordpress/noticias'
+                }
+            ],
+            'prensa': [
+                {
+                    'link': 'Prensa y Difusion',
+                    'href': '/atfsf.org/haberes/wordpress/prensa-y-difusion'
+                }
+            ],
+            'capacitacion': [
+                {
+                    'link': 'Capacitacion',
+                    'href': '/atfsf.org/haberes/wordpress/capacitacion'
+                }
+            ],
+            'contacto': [
+                {
+                    'link': 'Contacto',
+                    'href': '/atfsf.org/haberes/wordpress/contacto'
+                }
             ]
         };
     }

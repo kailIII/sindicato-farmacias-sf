@@ -39,7 +39,7 @@
 				  795 Folsom Ave, Suite 600<br>
 				  San Francisco, CA 94107<br>
 				  <abbr title="Telefono">Tel:</abbr> (123) 456-7890
-				  <?php echo date("Y");?> Sindicato
+<?php echo date("Y");?> Sindicato
 				</address>
 			</div>
 		</footer>

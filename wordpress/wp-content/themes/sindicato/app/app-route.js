@@ -12,6 +12,10 @@
 
       $routeProvider
         .when('/', {
+          templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/home.html',
+          controller: 'sindicatoController'
+        })
+        .when('/noticias', {
           templateUrl: '/atfsf.org/haberes/wordpress/wp-content/themes/sindicato/templates/main.html',
           controller: 'sindicatoController'
         })

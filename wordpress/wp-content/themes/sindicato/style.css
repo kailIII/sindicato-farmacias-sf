@@ -2,3 +2,16 @@
   width: 970px;
   margin: 0 auto;
 }
+
+.header {
+	background-color: #FFF;
+	color: #FFF;
+}
+
+.header-top {
+	background-color: #209B60;
+	width: 100%;
+	min-height: 50px;
+}
+
+.header-top a { color: #FFF; }
